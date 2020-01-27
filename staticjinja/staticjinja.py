@@ -100,6 +100,7 @@ class Site(object):
             warnings.warn("staticpaths are deprecated. Use Make instead.")
         self.staticpaths = staticpaths
         self.mergecontexts = mergecontexts
+        self.searchmask = searchmask
 
     @classmethod
     def make_site(cls,
